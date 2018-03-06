@@ -13,5 +13,5 @@ class Artist
   def songs
     @songs
   end
-  
+
 end
