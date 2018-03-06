@@ -1,16 +1,16 @@
-class Song
+class Post
 
-  attr_accessor :name, :artist
+  attr_accessor :title, :author
 
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
   end
 
-  def artist_name
-    if self.artist == nil
+  def author_name
+    if self.author == nil
       return nil
     else
-      self.artist.name
+      self.author.name
     end
   end
 
